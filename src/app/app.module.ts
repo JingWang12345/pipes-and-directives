@@ -9,6 +9,8 @@ import { FirstUpperPipe } from './pipes/first-upper/first-upper.pipe';
 import { YobPipe } from './pipes/to-age/to-age';
 import { EllipsisPipe } from './pipes/ellipsis/ellipsis.pipe';
 import { SpecialButtonDirective } from './directives/special-button/special-button.directive';
+import { UnlessDirective } from './directives/unless/unless.directive';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { SpecialButtonDirective } from './directives/special-button/special-butt
     FirstUpperPipe,
     YobPipe,
     EllipsisPipe,
-    SpecialButtonDirective
+    SpecialButtonDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,

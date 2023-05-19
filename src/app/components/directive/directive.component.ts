@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./directive.component.scss']
 })
 export class DirectiveComponent {
-
+isButton1NotVisible = true;
 }
